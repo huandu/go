@@ -879,6 +879,7 @@ pkg reflect, func FuncOf([]Type, []Type, bool) Type
 pkg runtime, func ReadTrace() []uint8
 pkg runtime, func StartTrace() error
 pkg runtime, func StopTrace()
+pkg runtime, func GetGoroutineId() int64
 pkg runtime, type MemStats struct, GCCPUFraction float64
 pkg runtime/trace, func Start(io.Writer) error
 pkg runtime/trace, func Stop()
